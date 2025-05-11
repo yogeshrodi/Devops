@@ -1,1 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Admission 2025</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7fc;
+            margin: 0;
+            padding: 0;
+        }
+        .hero-section {
+            background: url('https://via.placeholder.com/1500x800') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .hero-section h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+        }
+        .hero-section p {
+            font-size: 1.25rem;
+        }
+        .cta-btn {
+            background-color: #ff6f61;
+            color: white;
+            padding: 10px 30px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .cta-btn:hover {
+            background-color: #e65c4f;
+        }
+        .features {
+            padding: 50px 0;
+            background-color: white;
+        }
+        .feature-item {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .feature-item i {
+            font-size: 3rem;
+            color: #ff6f61;
+        }
+        .feature-item h3 {
+            margin-top: 20px;
+            font-size: 1.5rem;
+        }
+        .contact-form {
+            background-color: #ffffff;
+            padding: 50px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form h2 {
+            margin-bottom: 30px;
+            font-size: 2rem;
+            color: #333;
+        }
+        .contact-form .form-control {
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Welcome to Our School</h1>
+            <p>Admissions Open for 2025-2026 Academic Year</p>
+            <a href="#admission-form" class="cta-btn">Apply Now</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4 feature-item">
+                    <i class="bi bi-person-circle"></i>
+                    <h3>Experienced Faculty</h3>
+                    <p>Learn from the best educators in the field.</p>
+                </div>
+                <div class="col-md-4 feature-item">
+                    <i class="bi bi-book-half"></i>
+                    <h3>Comprehensive Curriculum</h3>
+                    <p>Engaging and well-structured courses.</p>
+                </div>
+                <div class="col-md-4 feature-item">
+                    <i class="bi bi-people-fill"></i>
+                    <h3>Inclusive Community</h3>
+                    <p>Fostering a diverse and supportive environment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Form Section -->
+    <section id="admission-form" class="container">
+        <h2 class="text-center mb-4">Admission Form</h2>
+        <form class="contact-form">
+            <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="cta-btn">Submit Application</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Our School. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
 
